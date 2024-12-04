@@ -1,30 +1,4 @@
-# 使用LLVM样式作为基础样式，也可以根据喜好选择其他如Google、Chromium等作为基础样式进行调整
-BasedOnStyle: LLVM
-# 缩进宽度，通常设置为4个空格，符合很多代码风格习惯，可按需调整
-IndentWidth: 4
-# 连续空行的最大数量限制，设为2表示允许最多连续2个空行，避免过多空行影响代码紧凑性和阅读
-MaxEmptyLinesToSkip: 2
-# 命名空间内缩进，设为 true 表示在命名空间内部的代码会进行缩进处理，增强代码结构显示
-IndentNamespace: true
-# 访问控制块（public、private、protected）的缩进，设为 true 使它们相对类名有缩进，更清晰区分
-IndentAccessModifiers: true
-# 函数调用时参数列表换行相关，设置为 false 表示参数不多时尽量不换行，保持紧凑，可减少一些格式检查冲突
-BreakBeforeBinaryOperators: false
-# 函数返回值类型换行情况，设置为 false 避免返回值类型轻易换行，保持函数声明相对简洁
-AllowReturnTypeOnItsOwnLine: false
-# 大括号换行风格，这里采用 Linux 风格（大括号不单独占一行，紧跟语句后面），可根据习惯调整
-BraceWrapping:
-  AfterClass: false
-  AfterFunction: false
-  AfterNamespace: false
-  AfterStruct: false
-  AfterUnion: false
-  AfterEnum: false
-  BeforeCatch: false
-  BeforeElse: false
-  BeforeLambdaBody: false
-  BeforeWhile: false
-# 指针和引用的绑定符号（*、&）与变量名之间的空格处理，设为 false 可减少一些不必要的空格报错提示
-SpaceBeforeParens: false
-# 对预处理指令（如 #ifdef、#endif 等）的缩进处理，设为 false 可简化其格式要求，避免一些检查问题
-IndentPreprocessorDirectives: false
+# All new code should follow Webkit style guide
+
+BasedOnStyle: WebKit
+SortIncludes: false
