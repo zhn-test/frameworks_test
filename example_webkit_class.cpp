@@ -1,6 +1,6 @@
 class MyWebKitClass {
 public:
-    // 构造函数的参数有合适的空格间隔，且初始化列表与参数对齐
+    // 构造函数的参数有合适的空格间隔，且初始化列表与参数对齐 
     MyWebKitClass(int param1, const std::string& param2) : param1_(param1), param2_(param2) {}
 
     // 成员函数声明，参数、返回值与函数名之间空格规范，函数体如果简短可放在一行
